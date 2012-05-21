@@ -1,0 +1,16 @@
+"AWT-EventQueue-1" prio=6 tid=0x0000000019018000 nid=0x894 in Object.wait() [0x00000000200af000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000000ab236d0> (a org.netbeans.core.TimableEventQueue)
+	at java.lang.Object.wait(Object.java:485)
+	at java.awt.EventQueue.getNextEvent(EventQueue.java:479)
+	- locked <0x000000000ab236d0> (a org.netbeans.core.TimableEventQueue)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:236)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+
+   Locked ownable synchronizers:
+	- None
